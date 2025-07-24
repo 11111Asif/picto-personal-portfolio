@@ -1,6 +1,10 @@
 import nt14 from '../../../assets/unsplash_wKOKidNT14w.png'
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FiFacebook } from "react-icons/fi";
+import { IoBasketballOutline } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa6";
 
 
 const Designer = () => {
@@ -26,8 +30,14 @@ const Designer = () => {
 
                 </div>
             </div>
-            <div className='absolute -mt-[200px] ml-[200px]'>
-                <FiFacebook className='text-black'></FiFacebook>
+            <div className='absolute -mt-[135px] ml-[95px] flex bg-[#ffffff] shadow-2xl items-center justify-center gap-5 w-[264px] h-[72px]'>
+                <FiFacebook className='text-[#A53DFF] text-2xl'></FiFacebook>
+                <IoBasketballOutline className='text-[#A53DFF] text-2xl'></IoBasketballOutline>
+                <FaInstagram className='text-[#A53DFF] text-2xl'></FaInstagram>
+                
+                    <FaLinkedinIn className='text-[#A53DFF] text-2xl'></FaLinkedinIn>
+                
+                    <FaBehance className='text-[#A53DFF] text-2xl'></FaBehance>
             </div>
         </div>
     );
