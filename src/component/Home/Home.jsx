@@ -1,4 +1,5 @@
 import Banner from "../Pages/Banner/Banner";
+import Designer from "../Pages/Designer/Designer";
 import Header from "../Pages/Header/Header";
 
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
            <Header></Header>
            <Banner></Banner>
+           <Designer></Designer>
         </div>
     );
 };
