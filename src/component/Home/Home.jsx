@@ -1,4 +1,5 @@
 import Banner from "../Pages/Banner/Banner";
+import Blog from "../Pages/Blog/Blog";
 import Designer from "../Pages/Designer/Designer";
 import Header from "../Pages/Header/Header";
 import Portfolio from "../Pages/Portfolio/Portfolio";
@@ -15,6 +16,7 @@ const Home = () => {
            <Work></Work>
            <Portfolio></Portfolio>
            <Together></Together>
+           <Blog></Blog>
         </div>
     );
 };
