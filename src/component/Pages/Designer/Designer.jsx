@@ -21,9 +21,9 @@ const Designer = () => {
                             I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences.
                         </p>
                         <p className='text-black'>I design and develop services for customers specializing creating stylish, modern websites, web services.</p>
-                        <div className='mt-10'>
+                        <div className='mt-10 flex'>
                             <button className="w-[132px] h-[48px] rounded-md bg-[#A53DFF]">My Project</button>
-                            <button className="w-[190px] relative h-[48px] rounded-md text-[#A53DFF] border ml-5"> Download CV</button>
+                            <button className="w-[190px] relative h-[48px] rounded-md text-[#A53DFF] border ml-3 lg:ml-5"> Download CV</button>
                         </div>
                         <MdOutlineFileDownload className='absolute text-[#A53DFF] text-xl -mt-[35px] ml-[170px]'></MdOutlineFileDownload>
                     </div>
