@@ -3,6 +3,7 @@ import Blog from "../Pages/Blog/Blog";
 import Clients from "../Pages/Clients/Clients";
 import Designer from "../Pages/Designer/Designer";
 import Development from "../Pages/Development/Development";
+import Form from "../Pages/Form/Form";
 import Header from "../Pages/Header/Header";
 import Portfolio from "../Pages/Portfolio/Portfolio";
 import Testimonial from "../Pages/Testimonial/Testimonial";
@@ -23,6 +24,7 @@ const Home = () => {
            <Development></Development>
            <Clients></Clients>
            <Testimonial></Testimonial>
+           <Form></Form>
         </div>
     );
 };
