@@ -30,14 +30,14 @@ const Designer = () => {
 
                 </div>
             </div>
-            <div className='absolute -mt-[135px] ml-[95px] flex bg-[#ffffff] shadow-2xl items-center justify-center gap-5 w-[264px] h-[72px]'>
-                <FiFacebook className='text-[#A53DFF] text-2xl'></FiFacebook>
-                <IoBasketballOutline className='text-[#A53DFF] text-2xl'></IoBasketballOutline>
-                <FaInstagram className='text-[#A53DFF] text-2xl'></FaInstagram>
+            <div className='absolute lg:-mt-[135px] -mt-[520px] ml-[90px] lg:ml-[95px] flex bg-[#ffffff] shadow-2xl items-center justify-center gap-5 w-[200px] lg:w-[264px] h-[72px]'>
+                <FiFacebook className='text-[#A53DFF] text-xl lg:text-2xl'></FiFacebook>
+                <IoBasketballOutline className='text-[#A53DFF] text-xl lg:text-2xl'></IoBasketballOutline>
+                <FaInstagram className='text-[#A53DFF] text-xl lg:text-2xl'></FaInstagram>
                 
-                    <FaLinkedinIn className='text-[#A53DFF] text-2xl'></FaLinkedinIn>
+                    <FaLinkedinIn className='text-[#A53DFF] text-xl lg:text-2xl'></FaLinkedinIn>
                 
-                    <FaBehance className='text-[#A53DFF] text-2xl'></FaBehance>
+                    <FaBehance className='text-[#A53DFF] text-xl lg:text-2xl'></FaBehance>
             </div>
         </div>
     );

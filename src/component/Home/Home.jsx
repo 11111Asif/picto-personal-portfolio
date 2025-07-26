@@ -1,6 +1,7 @@
 import Banner from "../Pages/Banner/Banner";
 import Designer from "../Pages/Designer/Designer";
 import Header from "../Pages/Header/Header";
+import Work from "../Pages/Work/Work";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
            <Header></Header>
            <Banner></Banner>
            <Designer></Designer>
+           <Work></Work>
         </div>
     );
 };
