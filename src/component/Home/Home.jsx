@@ -2,6 +2,7 @@ import Banner from "../Pages/Banner/Banner";
 import Designer from "../Pages/Designer/Designer";
 import Header from "../Pages/Header/Header";
 import Portfolio from "../Pages/Portfolio/Portfolio";
+import Together from "../Pages/Together/Together";
 import Work from "../Pages/Work/Work";
 
 
@@ -13,6 +14,7 @@ const Home = () => {
            <Designer></Designer>
            <Work></Work>
            <Portfolio></Portfolio>
+           <Together></Together>
         </div>
     );
 };

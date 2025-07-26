@@ -116,7 +116,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[149px] h-[48px] ml-[450px] rounded-md bg-[#A53DFF] text-center py-2.5 mt-10">
+            <div className="w-[149px] h-[48px] ml-[102px] lg:ml-[450px] rounded-md bg-[#A53DFF] text-center py-2.5 mt-10">
                 <button className="">More Project</button>
             </div>
         </div>
