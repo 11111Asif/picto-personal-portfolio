@@ -1,9 +1,11 @@
 import Banner from "../Pages/Banner/Banner";
 import Blog from "../Pages/Blog/Blog";
+import Clients from "../Pages/Clients/Clients";
 import Designer from "../Pages/Designer/Designer";
 import Development from "../Pages/Development/Development";
 import Header from "../Pages/Header/Header";
 import Portfolio from "../Pages/Portfolio/Portfolio";
+import Testimonial from "../Pages/Testimonial/Testimonial";
 import Together from "../Pages/Together/Together";
 import Work from "../Pages/Work/Work";
 
@@ -19,6 +21,8 @@ const Home = () => {
            <Together></Together>
            <Blog></Blog>
            <Development></Development>
+           <Clients></Clients>
+           <Testimonial></Testimonial>
         </div>
     );
 };
