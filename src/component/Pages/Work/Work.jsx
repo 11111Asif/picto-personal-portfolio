@@ -6,7 +6,7 @@ import vector8 from '../../../assets/Vector8.png'
 const Work = () => {
     return (
         <div className=''>
-            <div className="hero bg-[#F0F1F3] min-h-screen lg:px-32">
+            <div className="hero bg-[#F0F1F3] min-h-screen lg:px-32 lg:py-12">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                         <div className="card card-compact bg-[#ffffff] lg:w-[250px] w-[312px] h-[271px] lg:h-[250px] shadow-xl">
